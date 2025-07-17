@@ -1,0 +1,380 @@
+object FormMain: TFormMain
+  Left = 0
+  Top = 0
+  Caption = 'FormMain'
+  ClientHeight = 526
+  ClientWidth = 992
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object gbxDBSample: TGroupBox
+    Position.X = 8.000000000000000000
+    Position.Y = 14.000000000000000000
+    Size.Width = 280.000000000000000000
+    Size.Height = 119.000000000000000000
+    Size.PlatformDefault = False
+    Text = ' [ DATABASE SAMPLE ] '
+    TabOrder = 0
+    object btnCreateDatabase: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 260.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Create'
+      OnClick = btnCreateDatabaseClick
+    end
+    object btnDeleteDatabase: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 52.000000000000000000
+      Size.Width = 260.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Delete'
+      OnClick = btnDeleteDatabaseClick
+    end
+    object btnViewDBStructure: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 84.000000000000000000
+      Size.Width = 260.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'View Structure'
+      OnClick = btnViewDBStructureClick
+    end
+  end
+  object gbxTableCustomer: TGroupBox
+    Position.X = 8.000000000000000000
+    Position.Y = 292.000000000000000000
+    Size.Width = 280.000000000000000000
+    Size.Height = 222.000000000000000000
+    Size.PlatformDefault = False
+    Text = ' [ TABLE CUSTOMER ] '
+    TabOrder = 1
+    object btnCreateTableCustomer: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 260.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 9
+      Text = 'Create'
+      OnClick = btnCreateTableCustomerClick
+    end
+    object btnAddSimpleFields: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 52.000000000000000000
+      Size.Width = 260.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 10
+      Text = 'Add New Simple Fields'
+      OnClick = btnAddSimpleFieldsClick
+    end
+    object btnDeleteTable: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 180.000000000000000000
+      Size.Width = 260.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 14
+      Text = 'Delete'
+      OnClick = btnDeleteTableClick
+    end
+    object btnAddSimpleIndex: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 84.000000000000000000
+      Size.Width = 260.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 11
+      Text = 'Add Simple Index [ NAME; BALANCE; EMAIL ]'
+      OnClick = btnAddSimpleIndexClick
+    end
+    object btnAddCompositeIndex: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 116.000000000000000000
+      Size.Width = 260.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 12
+      Text = 'Add Composite Index [ NAME + BALANCE ]'
+      OnClick = btnAddCompositeIndexClick
+    end
+    object btnDeleteAllIndex: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 148.000000000000000000
+      Size.Width = 260.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 13
+      Text = 'Delete All Index'
+      OnClick = btnDeleteAllIndexClick
+    end
+  end
+  object gbxRelatedTables: TGroupBox
+    Position.X = 292.000000000000000000
+    Position.Y = 14.000000000000000000
+    Size.Width = 350.000000000000000000
+    Size.Height = 500.000000000000000000
+    Size.PlatformDefault = False
+    Text = '[ TABLES USERS/ORDERS/ORDERDETAILS ]'
+    TabOrder = 2
+    object btnCreateRelatedTables: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 330.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 22
+      Text = 'Create'
+      OnClick = btnCreateRelatedTablesClick
+    end
+    object btnRenameTable: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 84.000000000000000000
+      Size.Width = 330.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 14
+      Text = 'Rename Table - USERS->NEWUSERS'
+      OnClick = btnRenameTableClick
+    end
+    object gbxViewData: TGroupBox
+      Align = Client
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 330.000000000000000000
+      Size.Height = 374.000000000000000000
+      Size.PlatformDefault = False
+      Text = '[ VIEW DATA ] '
+      TabOrder = 38
+      object btnViewRecords: TButton
+        Align = Bottom
+        Margins.Left = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 342.000000000000000000
+        Size.Width = 310.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 21
+        Text = 'View Records'
+        OnClick = btnViewRecordsClick
+      end
+      object rbCustomers: TRadioButton
+        Align = Top
+        GroupName = 'Tables'
+        IsChecked = True
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 20.000000000000000000
+        Size.Width = 310.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 16
+        Text = 'Table Customer'
+      end
+      object rbUsers: TRadioButton
+        Align = Top
+        GroupName = 'Tables'
+        Margins.Left = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 39.000000000000000000
+        Size.Width = 310.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 17
+        Text = 'Table Users'
+      end
+      object rbOrders: TRadioButton
+        Align = Top
+        GroupName = 'Tables'
+        Margins.Left = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 58.000000000000000000
+        Size.Width = 310.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 18
+        Text = 'Table Orders'
+      end
+      object rbOrderDetails: TRadioButton
+        Align = Top
+        GroupName = 'Tables'
+        Margins.Left = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 77.000000000000000000
+        Size.Width = 310.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 19
+        Text = 'Table Order Details'
+      end
+      object rbSuppliers: TRadioButton
+        Align = Top
+        GroupName = 'Tables'
+        Margins.Left = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 96.000000000000000000
+        Size.Width = 310.000000000000000000
+        Size.Height = 19.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 20
+        Text = 'Suppliers'
+      end
+      object MemoData: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        Align = Client
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Size.Width = 310.000000000000000000
+        Size.Height = 217.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 38
+        Viewport.Width = 306.000000000000000000
+        Viewport.Height = 213.000000000000000000
+      end
+    end
+    object btnAlterTableStructure: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 52.000000000000000000
+      Size.Width = 330.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 26
+      Text = 'Alter Table Structure'
+      OnClick = btnAlterTableStructureClick
+    end
+  end
+  object GroupBox1: TGroupBox
+    Position.X = 645.000000000000000000
+    Position.Y = 14.000000000000000000
+    Size.Width = 337.000000000000000000
+    Size.Height = 151.000000000000000000
+    Size.PlatformDefault = False
+    Text = '[ CREATE SQLite Table FROM FDMemTable ] '
+    TabOrder = 3
+    object btnCreateFDMemTable: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 317.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 27
+      Text = 'Create [ MEMTABLE ]'
+      OnClick = btnCreateFDMemTableClick
+    end
+    object btnInsertData: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 52.000000000000000000
+      Size.Width = 317.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 28
+      Text = ' Insert Data [ MEMTABLE ]'
+      OnClick = btnInsertDataClick
+    end
+    object btnCreateSQLiteTableFromFDMemTable: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 84.000000000000000000
+      Size.Width = 317.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 29
+      Text = 'Create SQLiteTable [ SUPPLIERS ] From FDMemTable'
+      OnClick = btnCreateSQLiteTableFromFDMemTableClick
+    end
+    object btnTransferData: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 116.000000000000000000
+      Size.Width = 317.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 30
+      Text = 'Transfer Data'
+      OnClick = btnTransferDataClick
+    end
+  end
+end

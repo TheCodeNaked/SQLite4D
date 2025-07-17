@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/01/10 00:17:31.000.143,=C:\Users\Eduardo Araujo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/28 03:06:29.000.816,=C:\Users\Eduardo Araujo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/23 11:07:41.000.243,=C:\Users\Eduardo Araujo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/09/01 12:31:01.000.144,=C:\Users\Eduardo Araujo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/09/01 12:32:06.000.060,=C:\Users\Eduardo Araujo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/09/01 13:10:33.000.898,=C:\Users\Eduardo Araujo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/09/01 21:05:43.000.085,=C:\Users\Eduardo Araujo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/05/24 16:33:39.000.814,=C:\Users\Eduardo Araujo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/16 22:13:40.000.084,=C:\Users\Eduardo Araujo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/12/16 12:05:13.000.695,=C:\Users\Eduardo Araujo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/12/16 12:05:47.000.558,C:\Projects\SQLite4D\Unit1.pas=C:\Users\Eduardo Araujo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/12/16 12:05:47.000.558,C:\Projects\SQLite4D\Unit1.fmx=C:\Users\Eduardo Araujo\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2024/12/16 12:05:50.000.824,C:\Projects\SQLite4D\Project1.dproj=C:\Users\Eduardo Araujo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/12/16 12:06:45.000.927,=C:\Projects\SQLite4D\SQLite4D.pas</Transaction>
+    <Transaction>2024/12/17 20:00:59.000.296,=C:\Projects\SQLite4D\Unit2.pas</Transaction>
+    <Transaction>2024/12/17 20:01:42.000.581,C:\Projects\SQLite4D\TableScripts\TableScriptBldg.pas=C:\Projects\SQLite4D\Unit2.pas</Transaction>
+    <Transaction>2024/12/17 20:02:07.000.410,=C:\Projects\SQLite4D\Unit2.pas</Transaction>
+    <Transaction>2024/12/17 20:02:28.000.274,C:\Projects\SQLite4D\TableScripts\TableScriptBldgAptLayout.pas=C:\Projects\SQLite4D\Unit2.pas</Transaction>
+    <Transaction>2024/12/17 20:02:55.000.553,=C:\Projects\SQLite4D\Unit2.pas</Transaction>
+    <Transaction>2024/12/17 20:03:20.000.475,C:\Projects\SQLite4D\TableScripts\TableScriptScheduleLayout.pas=C:\Projects\SQLite4D\Unit2.pas</Transaction>
+    <Transaction>2024/12/17 20:24:36.000.449,=C:\Projects\SQLite4D\Unit2.pas</Transaction>
+    <Transaction>2024/12/17 20:25:27.000.891,C:\Projects\SQLite4D\BuildingImporter.pas=C:\Projects\SQLite4D\Unit2.pas</Transaction>
+    <Transaction>2024/12/17 21:20:05.000.973,=C:\Projects\SQLite4D\Controller\SafeThread\SafeThread.pas</Transaction>
+    <Transaction>2024/12/17 22:30:58.000.538,C:\Projects\SQLite4D\Controller\SQLite4D.pas=C:\Projects\SQLite4D\SQLite4D.pas</Transaction>
+    <Transaction>2024/12/17 22:31:16.000.572,C:\Projects\SQLite4D\Controller\SafeThread.pas=C:\Projects\SQLite4D\Controller\SafeThread\SafeThread.pas</Transaction>
+    <Transaction>2024/12/17 22:31:37.000.837,C:\Projects\SQLite4D\Controller\BuildingImporter.pas=C:\Projects\SQLite4D\BuildingImporter.pas</Transaction>
+    <Transaction>2024/12/17 22:34:36.000.802,C:\Projects\SQLite4D\MainForm.fmx=C:\Projects\SQLite4D\Unit1.fmx</Transaction>
+    <Transaction>2024/12/17 22:34:36.000.802,C:\Projects\SQLite4D\MainForm.pas=C:\Projects\SQLite4D\Unit1.pas</Transaction>
+    <Transaction>2024/12/18 09:11:25.000.557,C:\Projects\SQLite4D\SQLiteProject.dproj=C:\Projects\SQLite4D\Project1.dproj</Transaction>
+    <Transaction>2024/12/18 09:12:28.000.358,C:\Projects\SQLite4D\projSQLite4D.dproj=C:\Projects\SQLite4D\SQLiteProject.dproj</Transaction>
+    <Transaction>2024/12/18 09:13:25.000.575,C:\Projects\SQLite4D\MainForm.pas=C:\Projects\SQLite4D\View\MainForm.pas</Transaction>
+    <Transaction>2024/12/18 09:13:25.000.575,C:\Projects\SQLite4D\MainForm.fmx=C:\Projects\SQLite4D\View\MainForm.fmx</Transaction>
+    <Transaction>2024/12/18 09:36:45.000.861,=C:\Projects\SQLite4D\Unit1.pas</Transaction>
+    <Transaction>2024/12/18 09:39:17.000.819,C:\Projects\SQLite4D\TableScripts\TableScriptSetting.pas=C:\Projects\SQLite4D\Unit1.pas</Transaction>
+    <Transaction>2025/07/17 23:46:04.000.750,C:\Projects\SQLite4D-TheCodeNaked\TableScripts\TableScriptBldgAptLayout.pas=</Transaction>
+    <Transaction>2025/07/17 23:46:11.000.657,C:\Projects\SQLite4D-TheCodeNaked\TableScripts\TableScriptScheduleLayout.pas=</Transaction>
+    <Transaction>2025/07/17 23:46:19.000.141,C:\Projects\SQLite4D-TheCodeNaked\TableScripts\TableScriptSetting.pas=</Transaction>
+    <Transaction>2025/07/18 01:19:28.000.715,=C:\Projects\SQLite4D-TheCodeNaked\DataJSON\Bldg.json</Transaction>
+    <Transaction>2025/07/18 02:21:27.000.274,C:\Projects\SQLite4D-TheCodeNaked\Controller\BuildingImporter.pas=</Transaction>
+    <Transaction>2025/07/18 02:21:40.000.414,C:\Projects\SQLite4D-TheCodeNaked\DataJSON\Bldg.json=</Transaction>
+    <Transaction>2025/07/18 02:21:55.000.482,C:\Projects\SQLite4D-TheCodeNaked\TableScripts\TableScriptBldg.pas=</Transaction>
+    <Transaction>2025/07/18 02:28:04.000.661,=C:\Projects\SQLite4D-TheCodeNaked\SQLite\SQLite4D.pas</Transaction>
+    <Transaction>2025/07/18 03:47:36.000.123,=C:\Projects\SQLite4D-TheCodeNaked\scr\SQLite4D.pas</Transaction>
+    <Transaction>2025/07/18 03:50:29.493,=C:\Projects\SQLite4D-TheCodeNaked\MainForm.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="" Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>
