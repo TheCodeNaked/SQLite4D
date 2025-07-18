@@ -2,6 +2,8 @@
 
 [![](https://img.shields.io/github/v/release/TheCodeNaked/SQLite4D)](https://github.com/TheCodeNaked/SQLite4D/releases)
 
+![Delphi](https://img.shields.io/badge/language-Delphi-orange)
+
 **A lightweight declarative persistence engine for SQLite using Delphi.**
 
 SQLite4D was created to solve — in a fluent, safe and reusable way — the main challenges of using SQLite in Delphi applications, especially in mobile or offline scenarios.
