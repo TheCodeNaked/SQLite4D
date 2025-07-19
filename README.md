@@ -12,7 +12,7 @@ SQLite4D was created to solve — in a fluent, safe and reusable way — the mai
 
 ---
 
-## 🚀 Main Features
+##  Main Features
 
 - Create SQLite tables automatically from `TFDMemTable`
 - Batch insertions with progress callback
@@ -24,7 +24,7 @@ SQLite4D was created to solve — in a fluent, safe and reusable way — the mai
 
 ---
 
-## 🧪 Quick Example
+##  Quick Example
 
 ```pascal
 LSQLite4D := TSQLite4D.GetInstance('mydb.db');
@@ -40,7 +40,7 @@ LSQLite4D.CopyDataFromMemTableToSQLite('Customers', MemTable, 1,
 
 ---
 
-## 🧩 Highlight: `ExecuteMultipleSQL`
+##  Highlight: `ExecuteMultipleSQL`
 
 This method implements the recommended pattern for advanced schema changes in SQLite, such as renaming columns or modifying constraints — actions that are not directly supported by SQLite's native `ALTER TABLE`.
 
@@ -60,7 +60,7 @@ All within a transaction. If anything fails, no changes are committed.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 - `/src`: Core unit(s) of SQLite4D
 - `/examples`: Full demo project using `TFDMemTable` and SQLite4D
@@ -68,12 +68,12 @@ All within a transaction. If anything fails, no changes are committed.
 
 ---
 
-## 📝 License
+##  License
 
 MIT — Free to use, modify and distribute in commercial or open-source projects.
 
 ---
 
-## 📣 About the Project
+##  About the Project
 
 Developed by [TheCodeNaked](https://github.com/TheCodeNaked), an initiative that believes code should be expressive, elegant, and grounded in real problem-solving — not unnecessary complexity.
